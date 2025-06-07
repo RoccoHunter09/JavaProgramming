@@ -1,0 +1,27 @@
+package day11;
+
+public class Student {
+	
+	int sid;
+	String sname;
+	char grade;
+	
+	
+	void printData() {
+		System.out.println(sid+sname+grade);
+	}
+	  
+	void studentdata(int id,String name,char gr) { //id,name are local variable
+		sid=id;
+		sname=name;
+		grade=gr;
+	}
+	
+	Student(int id,String name,char gr)
+	{
+		sid=id;
+		sname=name;
+		grade=gr;
+	}
+
+}
